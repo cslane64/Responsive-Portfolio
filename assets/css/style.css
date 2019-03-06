@@ -1,0 +1,220 @@
+* {
+    box-sizing: border-box;
+}
+/* styles that are consistant throughout the body of the pages*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    background-image: url(../images/hounds.png);
+}
+/* header styling */
+header{
+    
+    background-color:#fff;
+    border-bottom: 2px solid;
+    border-color: #ccc;
+    margin-bottom: 20px;
+    padding: 25px;
+}
+/* Provides formatting for the labels in the contact form*/
+form label{
+    display: block;
+    font-size: 16px;
+    color: #777;
+}
+/* used to create seperation from the border above and the Name label */
+form label:first-child {
+    margin-top: 15px;
+}
+/* sets styling for the input fields on the contact page*/
+form input{
+    width: 95%;
+    padding: 10 px;
+    margin-bottom: 15px;
+}
+/* sets the style for the nav bar */
+nav{
+    float: right;
+    margin-top: 10px;
+}
+/* styling for the list items in the nav bar */
+nav li {
+    display: inline;
+}
+/* used to make the links on the page match the example image */
+nav a{
+    color:#ccc;
+    padding: 0 15px;
+    text-decoration: none;
+    border-right-style: solid;
+    border-right-color: #eee;
+    border-right-width: 2px;
+}
+/* highlights links when user hovers*/
+nav a:hover {
+    color: rgb(70, 129,183)
+}
+/* removes the border and padding on the last link to line it up properly to the right */
+nav ul li:last-child a {
+    border: none;
+    padding: 0 0 0 15px;
+}
+/* makes the image opaque when hovered over */
+img:hover {
+    opacity: .5;
+}
+/* styling for the image on the about me page */
+img{
+    height: 238px;
+    width: 225px;
+    float: left;
+    margin: 20px 10px 5px 0;
+}
+/* style for the paragraphs. I could have set the margin to 15px 
+like I did for #first-para but thet did not allow for enough space between the two paragrapghs*/
+p{
+    margin-top: 25px;
+    line-height: 1.6;
+}
+/* highlights the paragraph when user hovers over it*/
+p:hover {
+    background-color: rgb(70, 183, 113, .25);
+}
+/* set the color of the links to match paragraph*/
+a:link {
+    color: #777;
+}
+/* set links to not change color when visited*/
+a:visited {
+    color: #777;
+}
+/* changes color of the links in the paragraph when hovered over*/
+a:hover {
+    color: rgb(70, 129,183)
+}
+/* Styling for the footer. I could not get the sticky footer to work how it was supposed to */
+footer {
+    border-top: 8px;
+    border-style: solid;
+    border-color: #4aaaa5;
+    background-color: #666;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+/* container styling to maintain the width of the content on the page */
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+/* hack to clear floats*/
+.clearfix{
+    clear: both;
+    display: block;
+}
+/* styling for list of portfolio item labels */
+.port-list h4{
+    background-color:#4aaaa5;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    position: absolute;
+    bottom: 10px;
+    left: -0px;
+}
+/* styling for the page content holder */
+.container #section{
+    background-color: #fff;
+    margin-bottom: 75px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ddd;
+    padding: 25px;
+}
+/* styling for all portfolio image elements */
+.port-list{
+    position: relative;
+    width: 300px;
+    height: 225px;
+    margin: 20px 20px 20px 0;
+    float: left;
+    padding: 100px;
+}
+/* makes images in the portfolio list opaque when hovered over */
+.port-list:hover{
+    opacity: .5;
+}
+/* make the portfolio labels change color when user hovers on them */
+.port-list h4:hover {
+    background-color: rgb(74, 193,153);
+}
+/* styling for header h1 tag */
+#name{
+    background-color: #4aaaa5;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline;
+    padding: 25px;
+    font-size: 30px;
+}
+/* styling for each sections h2 tag */
+#about{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0 0 25px 0;
+    font-size: 25px;
+    color: #4aaaa5;
+    border-bottom: 2px;
+    border-style: solid;
+    border-color: #ddd;
+}
+/* styling to get the top paragraph level with the top of th eimage. I could NOT get nth-child or first-child to work.*/
+#first-para {
+    margin-top: 15px;
+}
+/* (place1 - place 5 are images for the portfolio thumbnails*/
+#place1{
+    background: url(../images/file-11.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#place2{
+    background: url(../images/file-12.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#place3{
+    background: url(../images/file-8.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#place4{
+    background: url(../images/file-7.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#place5{
+    background: url(../images/file-6.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* styling for contact forms message text area */
+#field-message{
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-color: #ccc;
+}
+
+/* change the color of the submit button text when user hovers*/
+#button:hover {
+    color: #000;
+    background-color: rgb(70, 129,183, .5)
+}
+/* send button on contact page */
+#button{
+    background-color: #4aaaa5;
+    color: #fff;
+    margin-bottom: 15px;
+}
