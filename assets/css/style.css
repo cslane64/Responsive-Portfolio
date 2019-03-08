@@ -222,10 +222,29 @@ footer {
 @media only screen and (max-width: 980px) {
     .container #section {
         background-color: pink;
-        max-width: 640;
+        max-width: 760px;
         padding: 0 20px;
+    }
+     .container {
+        max-width: 760px;
+    }
+    #about {
+        padding-top: 20px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .container #section {
+        background-color: lightblue;
+        max-width: 640px;
+        padding-right: 10px;
     }
     .container {
         max-width: 640px;
     }
+    .port-list {
+        width: 278px;
+        
+    }
+    
+    
 }
