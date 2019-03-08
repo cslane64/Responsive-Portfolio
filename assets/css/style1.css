@@ -225,7 +225,6 @@ footer {
 
 @media only screen and (max-width: 980px) {
     .container #section {
-       /* background-color: pink; */
         max-width: 760px;
         padding: 0 20px;
     }
@@ -238,7 +237,6 @@ footer {
 }
 @media only screen and (max-width: 768px) {
     .container #section {
-        /*background-color: lightblue;*/
         max-width: 640px;
         padding-right: 10px;
     }
@@ -260,25 +258,17 @@ footer {
     header{
         position: static;
         margin-bottom: 20px;
-        /*background-color: pink;*/
     }
-    /*.container #section {
-        background-color: purple;
-    }*/
     .container{
-        /*background-color: red;*/
         padding: 20px;
         margin-right: 10px;
         width: 100%;
     }
     header .container {
-       /* background-color: green; */
         padding: 30px;
     }
     #name{
-    
-        /*color: black;*/
-        /*background-color: blue;*/
+        color: black;
         position: absolute;
         top: 0;
         left: 3%;
@@ -288,20 +278,16 @@ footer {
     }
     nav{
         text-align: center;
-        margin-top: 15px;
-        width: 100%;
-        padding: 18px;
-    
+        margin-top: 5px;
     }
     nav a{
         width: 33%;
         margin-left: 0;
-        padding: 5px;
+        padding: 0 5px;
     }
-
     nav ul li:last-child a {
         border: none;
-        padding: 0 0 0 5px;
+        padding: 0;
     }
     img {
         clear: both;
@@ -310,7 +296,7 @@ footer {
     .port-list {
         clear: both;
         width: 100%;
-        margin: 10px 0px 10px 0;
+        margin: 20px 0px 20px 0;
         padding: 100px;
     }
     
