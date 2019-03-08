@@ -274,8 +274,6 @@ footer {
     header .container {
        /* background-color: green; */
         padding: 30px;
-
-
     }
     #name{
     
@@ -287,9 +285,6 @@ footer {
         right: 3%;
         text-align: center;
         margin-right: 5px;
-
-        
-        
     }
     nav{
         text-align: center;
@@ -303,4 +298,20 @@ footer {
         padding-left: 10px;
         margin-left: 0;
     }
+    img {
+        clear: both;
+        width: 100%;
+    }
+    .port-list {
+        clear: both;
+        width: 100%;
+
+    
+        
+       
+        margin: 20px 0px 20px 0;
+        
+        padding: 100px;
+    }
+    
 }
