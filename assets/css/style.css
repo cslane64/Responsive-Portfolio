@@ -16,6 +16,10 @@ header{
     margin-bottom: 20px;
     padding: 25px;
 }
+header #container{
+    width: 100%;
+    padding: 28px;
+}
 /* Provides formatting for the labels in the contact form*/
 form label{
     display: block;
@@ -221,7 +225,7 @@ footer {
 
 @media only screen and (max-width: 980px) {
     .container #section {
-        background-color: pink;
+       /* background-color: pink; */
         max-width: 760px;
         padding: 0 20px;
     }
@@ -234,7 +238,7 @@ footer {
 }
 @media only screen and (max-width: 768px) {
     .container #section {
-        background-color: lightblue;
+        /*background-color: lightblue;*/
         max-width: 640px;
         padding-right: 10px;
     }
@@ -242,9 +246,61 @@ footer {
         max-width: 640px;
     }
     .port-list {
-        width: 278px;
+        width: 47%;
+
+    }
+    .port-list:nth-child(even){
+        margin-right: 0;
+    }
+    .port-list:nth-child(odd) {
+        float:right;
+    }
+}
+@media only screen and (max-width: 640px) {
+    header{
+        position: static;
+        margin-bottom: 20px;
+        /*background-color: pink;*/
+    }
+    /*.container #section {
+        background-color: purple;
+    }*/
+    .container{
+        /*background-color: red;*/
+        padding: 20px;
+        margin-right: 10px;
+        width: 100%;
+    }
+    header .container {
+       /* background-color: green; */
+        padding: 30px;
+
+
+    }
+    #name{
+    
+        /*color: black;*/
+        /*background-color: blue;*/
+        position: absolute;
+        top: 0;
+        left: 3%;
+        right: 3%;
+        text-align: center;
+        margin-right: 5px;
+
+        
         
     }
+    nav{
+        text-align: center;
+        margin-top: 15px;
+        width: 100%;
+        padding: 18px;
     
-    
+    }
+    nav a{
+        width: 30%;
+        padding-left: 10px;
+        margin-left: 0;
+    }
 }
