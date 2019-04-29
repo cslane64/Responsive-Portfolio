@@ -179,27 +179,27 @@ footer {
 }
 /* (place1 - place 5 are images for the portfolio thumbnails*/
 #place1{
-    background: url(../images/file-11.jpeg);
+    background: url(../images/word.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 #place2{
-    background: url(../images/file-12.jpeg);
+    background: url(../images/RPG.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 #place3{
-    background: url(../images/file-8.jpeg);
+    background: url(../images/trivia.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 #place4{
-    background: url(../images/file-7.jpeg);
+    background: url(../images/train.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 #place5{
-    background: url(../images/file-6.jpeg);
+    background: url(../images/project1.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
